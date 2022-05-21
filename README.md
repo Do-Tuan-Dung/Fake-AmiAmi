@@ -17,6 +17,6 @@
 - Main ~ Fake-AmiAmi
 
 `Tên update`
-* Thêm file/folder, sắp xếp lại file: _1.0; 2.0; 3.0;..._
+* Thêm file/folder, sắp xếp lại file, GitHub config: _1.0; 2.0; 3.0;..._
 * Update file: _1.1; 1.2; 1.3_
 * Sửa lặt vặt: _1.0.1; 1.0.2; 1.0.3;..._
