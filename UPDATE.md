@@ -19,8 +19,13 @@
 
 #### 3.2
 * Sửa file path (tạm thời)
-+ Code LogMeIn (html + css + js)
+
+#### 3.3
+* Thêm footer LogMeIn (html)
++ Update folder img
 
 #### 3.4
 * Sửa LogMeIn (html + css)
-+ Update folder img
+
+### 4.0
++ Resolve conflict, nén 2 local vào Chireiden

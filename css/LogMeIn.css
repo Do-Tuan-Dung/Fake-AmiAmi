@@ -242,3 +242,34 @@ input {
     background-color: #FFFFFF;
     transition: 0.7s;
 }
+
+footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #000000BF;
+    width: 100%;
+    height: 120px;
+    position: relative;
+    top: 130px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 20px;
+}
+
+footer a {
+    color: #FFFFFF;
+}
+
+footer ul {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.fab {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+}
