@@ -29,3 +29,6 @@
 
 ### 4.0
 + Resolve conflict, nén 2 local vào Chireiden
+
+##### 4.0.1
++ Chuyển vị trí 2 ảnh (product -> resource)
