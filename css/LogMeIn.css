@@ -267,3 +267,10 @@ footer ul {
     list-style-type: none;
     cursor: pointer;
 }
+
+.fab {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+}
