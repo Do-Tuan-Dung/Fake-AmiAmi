@@ -7,7 +7,8 @@
 }
 
 body {
-    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    background: url(/img/product/fumo_login_bg.jpg);
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,13 +172,11 @@ input {
 }
 
 .overlay {
-    background: #FF416C;
-    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-    background: linear-gradient(to right, #FF4B2B, #FF416C);
+    background: url(/img/product/fumo_login_overlay.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 0;
-    color: #FFFFFF;
+    background-position: 0% 10%;
+    color: white;
     position: relative;
     left: -100%;
     height: 100%;

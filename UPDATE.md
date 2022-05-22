@@ -19,3 +19,8 @@
 
 #### 3.2
 * Sửa file path (tạm thời)
++ Code LogMeIn (html + css + js)
+
+#### 3.4
+* Sửa LogMeIn (html + css)
++ Update folder img
