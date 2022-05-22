@@ -32,3 +32,7 @@
 
 ##### 4.0.1
 + Chuyển vị trí 2 ảnh (product -> resource)
+
+### 4.1
++ Thêm ảnh (product)
++ Sửa footer trong LogMeIn (html + css)
