@@ -17,9 +17,5 @@
 #### 3.1
 + Update folder img
 
-##### 3.1.1
+#### 3.2
 * Sửa file path (tạm thời)
-
-### 3.2 
-+ Thêm footer LogMeIn (html)
-+ Update folder img
