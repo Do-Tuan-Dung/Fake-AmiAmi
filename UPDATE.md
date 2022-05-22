@@ -13,3 +13,6 @@
 ### 3.0
 + Tạo folder img
 + Code LogMeIn (html + css + js)
+
+#### 3.1
++ Update folder img
