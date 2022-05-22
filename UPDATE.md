@@ -9,3 +9,7 @@
 + Chuyển sang branch Chireiden
 - Xóa branch cũ
 + Tạo RULESET.md
+
+### 3.0
++ Tạo folder img
++ Code LogMeIn (html + css + js)
