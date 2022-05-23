@@ -14,7 +14,8 @@
 
 *Pages:*
 - LogMeIn ~ Fake-AmiAmi
-- Main ~ Fake-AmiAmi
+- ShopHub ~ Fake-AmiAmi
+- Cart ~ Fake-AmiAmi
 
 `Tên update`
 * Thêm file/folder, sắp xếp lại file, GitHub config: _1.0; 2.0; 3.0;..._

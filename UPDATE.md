@@ -19,6 +19,7 @@
 
 #### 3.2
 * Sửa file path (tạm thời)
++ THêm 23 ảnh (product)
 
 #### 3.3
 * Thêm footer LogMeIn (html)
@@ -33,6 +34,15 @@
 ##### 4.0.1
 + Chuyển vị trí 2 ảnh (product -> resource)
 
-### 4.1
-+ Thêm ảnh (product)
+#### 4.1
++ Thêm 14 ảnh (product)
 + Sửa footer trong LogMeIn (html + css)
+
+### 5.0
+* Đổi tên & cải tạo CSS-RULESET.md
++ Tạo ShopHub (html + css)
++ Thêm 2 ảnh (resource)
+
+#### 5.1
+* Sửa footer LogMeIn (html + css)
+* Chỉnh lý LogMeIn.css đúng với RULESET mới
