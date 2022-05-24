@@ -14,7 +14,7 @@ body {
 .header__site-logo {
     background-size: cover;
     height: 50px;
-    margin: 10px 35px auto 20px;
+    margin: 27px 35px auto 20px;
 }
 
 /*Search box*/
@@ -84,7 +84,7 @@ body {
     align-items: center;
     justify-content: space-between;
     min-width: 120px;
-    margin: 10px 20px auto 35px;
+    margin: 27px 20px auto 35px;
 }
 
 .header__config__item {
@@ -160,5 +160,6 @@ body {
 
 /*Main body*/
 .main-body {
-    
+    margin: 0px;
+    padding: 10px;
 }

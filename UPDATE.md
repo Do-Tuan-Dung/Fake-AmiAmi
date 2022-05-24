@@ -64,3 +64,6 @@
 
 #### 6.1
 * Code ShopHub (html + css)
+
+##### 6.1.1
+* Code ShopHub (html + css)
