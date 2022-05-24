@@ -19,7 +19,7 @@ body {
 
 /*Search box*/
 .search {
-    min-width: 600px;
+    min-width: 300px;
     margin-top: 10px;
 }
 
@@ -141,7 +141,7 @@ body {
     text-align: right;
 }
 
-/*Body: categories, content*/
+/*Body background*/
 .body__container {
     font-size: 15px;
 }
@@ -156,4 +156,9 @@ body {
     width: 200px;
     height: min-content;
     opacity: 0.3;
+}
+
+/*Main body*/
+.main-body {
+    
 }
