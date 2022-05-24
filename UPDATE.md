@@ -66,4 +66,10 @@
 * Code ShopHub (html + css)
 
 ##### 6.1.1
-* Code ShopHub (html + css)
+* Update ShopHub (html + css)
+
+#### 6.2
+* Fix lỗi đường dẫn
++ Thêm 5 ảnh (product)
+* Update ShopHub (js)
+* Fix position header config (html + css)
