@@ -47,6 +47,9 @@
 * Sửa footer LogMeIn (html + css)
 * Chỉnh lý LogMeIn.css đúng với RULESET mới
 
-### 5.2
+#### 5.2
 * Code ShopHub (html + css)
 + Thêm 3 ảnh (resource)
+#### 5.3
+* Code ShopHub (html + css)
++ Thêm 2 ảnh (resource)

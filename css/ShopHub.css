@@ -3,53 +3,134 @@ body {
     margin: 0px;
 }
 
+/*Header: Logo, search box, cart, config*/
 .header__container {
     display: flex;
-    justify-content: space-around;
     width: 100vw;
     font-size: 18px;
     font-weight: 500;
 }
 
-.site-logo {
+.header__site-logo {
     background-size: cover;
     height: 50px;
-    margin-top: 10px;
+    margin: 10px 35px auto 20px;
 }
 
-.search-area {
-    width: calc(100% - 600px);
+/*Search box*/
+.search {
     min-width: 600px;
     margin-top: 10px;
 }
 
-.search-box {
-    color: rgb(47, 47, 47);
+.search__box {
+    color: rgb(128, 128, 128);
     width: 100%;
+    border-radius: 6px 0px 0px 6px;
 }
 
-.filter {
+.search__filter {
     background-color: #c7c7c7;
     color: rgb (47, 47, 47);
     width: 41px;
+    border: transparent 0px;
 }
 
-.filter:focus {
+.search__filter:focus {
     width: auto;
+    border: transparent 0px;
     transition: ease-in-out 0.7s linear;
 }
 
-.search-button {
+.search__button {
     background: #f38029 url(/img/resource/icon_search_white.png) no-repeat 50%;
     box-sizing: border-box;
     width: 37px;
     height: 38px;
+    border: transparent 0px;
     border-radius: 0 6px 6px 0;
     font-size: 0;
 }
 
+/*Cart*/
+.cart {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.cart__info {
+    margin: 0px 15px 0px 20px;
+}
+
+.cart__info__desc {
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cart__info__desc:hover {
+    color: #f38029;
+}
+
+.js-cart__total-cost {
+    color:#f38029;
+    font-weight: 700;
+}
+
+/*Config*/
+.header__config {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 120px;
+    margin: 10px 20px auto 35px;
+}
+
+.header__config__item {
+    display: inline-block;
+}
+
+.header__config__lower {
+    font-size: 8px;
+    font-weight: 400;
+}
+
+/*"My account" dropdown*/
+.my-account {
+    position: relative;
+    display: inline-block;
+}
+
+.my-account__dropdown {
+    background-color: white;
+    border: none;
+}
+
+.my-account__content {
+    display: none;
+    background-color: #f1f1f1;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.my-account__content a {
+    color: black;
+    padding: 6px 8px 4px;
+    text-decoration: none;
+    display: block;
+}
+
+.my-account__content a:hover {background-color: #ddd;}
+.my-account:hover .my-account__content {display: block;}
+.my-account:hover .my-account__dropdown {background-color: #f38029;}
+
+/*Body: categories, content*/
 .body__container {
-    margin-top: 500px;
     font-size: 15px;
 }
 
