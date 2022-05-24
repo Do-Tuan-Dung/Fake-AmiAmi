@@ -268,8 +268,8 @@ footer ul {
     background-size: 100% 100%;
 }
 
-#signUp:hover,
-#signIn:hover {
+#js-signUp:hover,
+#js-signIn:hover {
     color: #FF4B2B;
     background-color: #FFFFFF;
     transition: 0.7s;

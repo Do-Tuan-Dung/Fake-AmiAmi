@@ -1,0 +1,66 @@
+body {
+    font-family: 'Open Sans' , 'Helvetica Neue', Helvetica, Arial, Verdana, 'Roboto', 'Yu Gothic' , 'Hiragino Kaku Gothic Pro', 'Meiryo UI', 'MS Gothic', sans-serif;
+    margin: 0px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.site-logo {
+    background-size: cover;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.search-area {
+    width: calc(100% - 600px);
+    min-width: 600px;
+    margin-top: 10px;
+}
+
+.search-box {
+    color: rgb(47, 47, 47);
+    width: 100%;
+}
+
+.filter {
+    background-color: #c7c7c7;
+    color: rgb (47, 47, 47);
+    width: 41px;
+}
+
+.filter:focus {
+    width: auto;
+    transition: ease-in-out 0.7s linear;
+}
+
+.search-button {
+    background: #f38029 url(/img/resource/icon_search_white.png) no-repeat 50%;
+    box-sizing: border-box;
+    width: 37px;
+    height: 38px;
+    border-radius: 0 6px 6px 0;
+    font-size: 0;
+}
+
+.body__container {
+    margin-top: 500px;
+    font-size: 15px;
+}
+
+.background__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.background {
+    background-size: cover;
+    width: 200px;
+    height: min-content;
+    opacity: 0.3;
+}

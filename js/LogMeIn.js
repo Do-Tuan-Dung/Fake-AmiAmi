@@ -1,6 +1,6 @@
-const signUpButton = document.getElementById('signUp');
-const signInButton = document.getElementById('signIn');
-const container = document.getElementById('container');
+const signUpButton = document.getElementById('js-signUp');
+const signInButton = document.getElementById('js-signIn');
+const container = document.getElementById('js-container');
 
 signUpButton.addEventListener('click', () => {
     container.classList.add("js-right-panel__active");
