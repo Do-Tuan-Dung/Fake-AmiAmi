@@ -57,3 +57,7 @@
 #### 5.4
 * Code ShopHub (html + css)
 + Thêm 1 ảnh (resource)
+
+### 6.0
+* Tạo và code ShopHub.js
+- Remove 1 ảnh (product)
