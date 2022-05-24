@@ -53,3 +53,7 @@
 #### 5.3
 * Code ShopHub (html + css)
 + Thêm 2 ảnh (resource)
+
+#### 5.4
+* Code ShopHub (html + css)
++ Thêm 1 ảnh (resource)

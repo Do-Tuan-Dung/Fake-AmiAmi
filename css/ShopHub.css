@@ -129,6 +129,18 @@ body {
 .my-account:hover .my-account__content {display: block;}
 .my-account:hover .my-account__dropdown {background-color: #f38029;}
 
+/*Promotion banner*/
+.promotional {
+    background: url(/img/resource/sale_banner.png) no-repeat;
+    background-size: cover;
+    color: white;
+    height: 200px;
+    padding: 15px;
+    margin: 20px;
+    font: 550 25px cursive;
+    text-align: right;
+}
+
 /*Body: categories, content*/
 .body__container {
     font-size: 15px;
