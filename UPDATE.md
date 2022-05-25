@@ -48,14 +48,14 @@
 * Chỉnh lý LogMeIn.css đúng với RULESET mới
 
 #### 5.2
-* Code ShopHub (html + css)
+* Code ShopHub (html + css) ~ Header
 + Thêm 3 ảnh (resource)
 #### 5.3
-* Code ShopHub (html + css)
+* Code ShopHub (html + css) ~ Header
 + Thêm 2 ảnh (resource)
 
 #### 5.4
-* Code ShopHub (html + css)
+* Code ShopHub (html + css) ~ Header
 + Thêm 1 ảnh (resource)
 
 ### 6.0
@@ -73,3 +73,10 @@
 + Thêm 5 ảnh (product)
 * Update ShopHub (js)
 * Fix position header config (html + css)
+
+#### 6.3
++ Thêm 4 ảnh (product)
++ Thêm 4 ảnh (resource)
+* Thay 1 ảnh (resource)
+* Code ShopHub (html + css) ~ Footer
+* Nhập khẩu font (ShopHub.css)

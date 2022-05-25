@@ -32,6 +32,7 @@
     `align-items:` ;
     `overflow:` ;
     `object-fit:` ;
+    `content:` ;
     `border:` *"width style colour"*;
     `border-radius:` ;
     `box-shadow:` *"h-offset v-offset blur spread colour inset"*;
@@ -42,6 +43,7 @@
     `line-height:` ;
     `text-align:` ;
     `text-decoration:` ;
+    `list-style:` ;
     `text-shadow:` ;
     `transition:` ;
 }
