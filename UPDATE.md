@@ -99,3 +99,6 @@
 ##### 6.7.1
 * Thay 2 ảnh (product)
 * Sửa file path 2 items (ShopHub.js)
+
+##### 6.7.2
+* Sửa tên item (ShopHub.js)
