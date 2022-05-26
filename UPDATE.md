@@ -80,3 +80,7 @@
 * Thay 1 ảnh (resource)
 * Code ShopHub (html + css) ~ Footer
 * Nhập khẩu font (ShopHub.css)
+
+#### 6.4
+* Code ShopHub (html + css) ~ Footer
+* Thay 1 ảnh (resource)
