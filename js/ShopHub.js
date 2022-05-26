@@ -241,7 +241,7 @@ const productList = [
         price: '50800¥',
     },
     {
-        img: '../img/product/GOODS-dekaCirno.png',
+        img: '../img/product/GOODS-dekaCirno.jpg',
         title: '[Pre-Order]Dekafumo Cirno',
         description: '70cm',
         price: '50800¥',
@@ -259,7 +259,7 @@ const productList = [
         price: '50800¥',
     },
     {
-        img: '../img/product/GOODS-dekatanCirno.png',
+        img: '../img/product/GOODS-dekatanCirno.jpg',
         title: '[Pre-Order]Dekafumo Tan Cirno',
         description: '70cm',
         price: '50800¥',
