@@ -102,3 +102,6 @@
 
 ##### 6.7.2
 * Sửa tên item (ShopHub.js)
+
+##### 6.7.3
+* Thay 1 ảnh (resource)
