@@ -88,3 +88,6 @@
 #### 6.5
 * Update ShopHub (js)
 * Chỉnh tí visual ShopHub (css)
+
+#### 6.6
++ Add product ShopHub (js)
