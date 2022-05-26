@@ -168,7 +168,7 @@ body {
     border-radius: 16px;
 }
 
-.promotional__youtube {
+/* .promotional__youtube {
     display: flex;
     position: relative;
     justify-content: space-around;
@@ -194,7 +194,7 @@ body {
     right: 15%;
     width: 32%;
     height: 25%;
-}
+} */
 
 /*Body background*/
 .body__container {

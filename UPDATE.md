@@ -108,3 +108,4 @@
 
 #### 6.8
 + Thêm product vào ShopHub (html)
+> ! Lỗi class promotional youtube đè lên phần product (html)
