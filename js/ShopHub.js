@@ -267,20 +267,20 @@ const productList = [
 ];
 
 
-const content = document.querySelector('.main-body');
+const content = document.querySelector(".main-body");
 
 let contentHtml = '';
 
-productList.forEach(function (product) {
+productList.forEach(function (prod) {
     contentHtml += `<div class="product">
     <img
       class="product-image"
-      src="${product.img}"
+      src="${prod.img}"
       alt=""
     />
-    <span class="product-title">${product.title}</span>
-    <span class="product-size">${product.description}</span>
-    <span class="product-price">${product.price}</span>
+    <span class="product-title">${prod.title}</span>
+    <span class="product-size">${prod.description}</span>
+    <span class="product-price">${prod.price}</span>
   </div>
   `
 });

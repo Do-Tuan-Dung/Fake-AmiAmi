@@ -185,25 +185,28 @@ body {
     margin: 0px;
     padding: 10px;
     width: 70%;
-}
-
-.content {
     display: flex;
     flex-wrap: wrap;
+    background-color: orange;
 }
 
+/* Product */
 .product {
-    width: 33.33%;
+    width: 20%;
     padding: 15px;
-    display: flex;
     flex-direction: column;
     align-items: center;
+    color: black;
 }
 
 .product-image {
     width: 100%;
     object-fit: cover;
 }
+
+/* .product-title{}
+.product-size{}
+.product-price{} */
 
 /*Footer: Company, info+,...*/
 .footer {
