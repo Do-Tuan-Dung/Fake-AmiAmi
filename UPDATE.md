@@ -90,4 +90,8 @@
 * Chỉnh tí visual ShopHub (css)
 
 #### 6.6
+<<<<<<< HEAD
 * Code ShopHub (html + css) ~ Promotional
+=======
++ Add product ShopHub (js)
+>>>>>>> 3a7da200bcf3da5012be0076d03dbdcd42d87995
