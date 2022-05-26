@@ -150,17 +150,51 @@ body {
 .my-account:hover .my-account__content {display: block;}
 .my-account:hover .my-account__dropdown {background-color: #f38029;}
 
-/*Promotion banner*/
-.promotional {
+/*Promotion area*/
+.promotional__container {
+    height: 460px;
+    padding: 0px;
+    margin: 20px 20px 70px 20px;
+}
+
+.promotional__banner {
     background: url(../img/resource/promo_banner.png) no-repeat;
     background-size: cover;
     color: white;
-    height: 200px;
-    padding: 15px;
-    margin: 20px;
+    width: 1300px;
+    height: 220px;
+    padding: 0px;
+    margin: 0px auto 0px auto;
     border-radius: 16px;
-    font: 550 25px cursive;
-    text-align: right;
+}
+
+.promotional__youtube {
+    display: flex;
+    position: relative;
+    height: 480px;
+    justify-content: space-around;
+    overflow: hidden;
+    margin-top: 20px;
+    padding-top: 56.25%;
+}
+
+.promotional__youtube iframe {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border: none;
+}
+
+.promotional__youtube iframe:first-child {
+    left: 15%;
+    width: 32%;
+    height: 18%;
+}
+
+.promotional__youtube iframe:last-child {
+    right: 15%;
+    width: 32%;
+    height: 18%;
 }
 
 /*Body background*/
