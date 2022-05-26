@@ -171,9 +171,8 @@ body {
 .promotional__youtube {
     display: flex;
     position: relative;
-    height: 480px;
     justify-content: space-around;
-    overflow: hidden;
+    overflow: auto;
     margin-top: 20px;
     padding-top: 56.25%;
 }
@@ -188,13 +187,13 @@ body {
 .promotional__youtube iframe:first-child {
     left: 15%;
     width: 32%;
-    height: 18%;
+    height: 25%;
 }
 
 .promotional__youtube iframe:last-child {
     right: 15%;
     width: 32%;
-    height: 18%;
+    height: 25%;
 }
 
 /*Body background*/
@@ -221,7 +220,7 @@ body {
     width: 70%;
     display: flex;
     flex-wrap: wrap;
-    background-color: orange;
+    justify-content: space-evenly;
 }
 
 /* Product */
@@ -235,12 +234,34 @@ body {
 
 .product-image {
     width: 100%;
+    height: 75%;
     object-fit: cover;
+    border: 2px solid #f38029;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
-/* .product-title{}
-.product-size{}
-.product-price{} */
+.product-title{
+    font-weight: 700;
+    display: block;
+    text-align: left;
+}
+
+.product-title:hover {
+    cursor: pointer;
+    color: #f38029;
+}
+
+.product-size{
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+}
+.product-price{
+    font-weight: 500;
+    color: #f38029;
+    font-size: 18px;
+}
 
 /*Footer: Company, info+,...*/
 .footer {

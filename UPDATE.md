@@ -104,4 +104,7 @@
 * Sửa tên item (ShopHub.js)
 
 ##### 6.7.3
-* Thay 1 ảnh (resource)
++ Thêm 1 ảnh (resource)
+
+#### 6.8
++ Thêm product vào ShopHub (html)

@@ -279,8 +279,8 @@ productList.forEach(function (prod) {
       alt=""
     />
     <span class="product-title">${prod.title}</span>
-    <span class="product-size">${prod.description}</span>
-    <span class="product-price">${prod.price}</span>
+    <span class="product-size">Size: ${prod.description}</span>
+    <span class="product-price">Price: ${prod.price}</span>
   </div>
   `
 });
