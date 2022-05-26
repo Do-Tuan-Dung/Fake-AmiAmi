@@ -1,7 +1,7 @@
 //List product
 const productList = [
     {
-        img: '',
+        img: '../img/product/GOODS-Aya.jpg',
         title: '[Pre-Order]Fumofumo Aya Shameimaru',
         description: '20cm',
         price: '6500¥',
@@ -240,28 +240,49 @@ const productList = [
         description: '70cm',
         price: '50800¥',
     },
+    {
+        img: '',
+        title: '[Pre-Order]Dekafumo Cirno',
+        description: '70cm',
+        price: '50800¥',
+    },
+    {
+        img: '',
+        title: '[Pre-Order]Dekafumo Marisa Kirisame',
+        description: '70cm',
+        price: '50800¥',
+    },
+    {
+        img: '',
+        title: '[Pre-Order]Dekafumo Reimu Hakurei',
+        description: '70cm',
+        price: '50800¥',
+    },
+    {
+        img: '',
+        title: '[Pre-Order]Dekafumo Tan Cirno',
+        description: '70cm',
+        price: '50800¥',
+    },
 ];
 
-/*
-const content = document.querySelector('.content');
+
+const content = document.querySelector('.main-body');
 
 let contentHtml = '';
 
-list.forEach(function (product) {
-  contentHtml += `<div class="item">
+productList.forEach(function (product) {
+    contentHtml += `<div class="product">
     <img
-      class="item-image"
+      class="product-image"
       src="${product.img}"
       alt=""
     />
-    <span class="item-">${product.}</span>
-    <span class="item-title">${product.title}</span>
-    <span class="item-title">${product.description}</span>
-    <span class="item-price">${product.price}</span>
+    <span class="product-title">${product.title}</span>
+    <span class="product-size">${product.description}</span>
+    <span class="product-price">${product.price}</span>
   </div>
-  `;
+  `
 });
 
 content.innerHTML = contentHtml;
-
-*/

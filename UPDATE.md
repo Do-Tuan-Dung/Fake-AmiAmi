@@ -84,3 +84,7 @@
 #### 6.4
 * Code ShopHub (html + css) ~ Footer
 * Thay 1 ảnh (resource)
+
+#### 6.5
+* Update ShopHub (js)
+* Chỉnh tí visual ShopHub (css)
