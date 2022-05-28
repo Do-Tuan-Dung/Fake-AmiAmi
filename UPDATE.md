@@ -112,3 +112,7 @@
 
 #### 6.9
 * Code ShopHub (html + css) ~ Promotional
+
+### 7.0
++ Thêm file Cart (html + css + js)
+* Fix background ShopHub (css)
