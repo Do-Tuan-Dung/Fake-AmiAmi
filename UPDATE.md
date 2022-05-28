@@ -122,3 +122,6 @@
 
 #### 7.2
 * Code ShopHub (html + css) ~ Responsive
+
+#### 7.3
+* Code ShopHub (css) ~ Responsive

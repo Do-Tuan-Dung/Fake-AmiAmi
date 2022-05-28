@@ -327,7 +327,7 @@ body {
 
 }
 
-/*Body background*/
+/*Body*/
 .body__container {
     font-size: 15px;
 }
@@ -357,10 +357,30 @@ body {
 .main-body {
     margin: 0px;
     padding: 10px;
-    width: 75%;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+/*Body ~ Responsive*/
+@media (max-width: 767.98px) {
+    .background-left,
+    .background-right {
+        width: 150px;
+        margin: 0px 10px 10px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .background-left,
+    .background-right {
+        display: none;
+    }
+
+    .main-body {
+        width: 100%;
+    }
 }
 
 /* Product */
