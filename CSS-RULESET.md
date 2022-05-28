@@ -31,6 +31,7 @@
     `justify-content:` ;
     `align-items:` ;
     `overflow:` ;
+    `white-space:` ;
     `object-fit:` ;
     `content:` ;
     `border:` *"width style colour"*;
@@ -43,7 +44,8 @@
     `line-height:` ;
     `text-align:` ;
     `text-decoration:` ;
+    `text-overflow:` ;
     `list-style:` ;
     `text-shadow:` ;
-    `transition:` ;
+    `transition:` *"delay property duration timing-function"*;
 }

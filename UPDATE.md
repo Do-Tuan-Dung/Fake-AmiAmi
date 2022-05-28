@@ -125,3 +125,8 @@
 
 #### 7.3
 * Code ShopHub (css) ~ Responsive
+
+### 8.0
++ Thêm file ĐỒNG_NÁT.md
++ Thêm 4 ảnh (product)
+* Code ShopHub (css + js) ~ Catalog

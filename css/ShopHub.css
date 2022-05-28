@@ -241,7 +241,7 @@ body {
     color: white;
     width: 90%;
     height: 0;
-    padding: 0px 0px 15.52% 0px;
+    padding: 0px 0px 15.52% 0px !important;
     margin: 0px auto;
     border-radius: 16px;
 }
@@ -256,7 +256,7 @@ body {
     position: relative;
     width: 40%;
     overflow: hidden;
-    padding-top: 22.50%;
+    padding-top: 22.50%; /*DO NOT TOUCH*/
 }
 
 .promotional__youtube__cell iframe {
@@ -337,7 +337,7 @@ body {
     justify-content: space-between;
 }
 
-.background-left {
+.background-left { /*DO NOT TOUCH*/
     background: url(../img/resource/Left_vertical_banner.png) repeat-y;
     background-size: contain;
     opacity: 0.3;
@@ -345,7 +345,7 @@ body {
     margin: 0px 15px 10px;
 }
 
-.background-right {
+.background-right { /*DO NOT TOUCH*/
     background: url(../img/resource/Right_vertical_banner.png) repeat-y;
     background-size: contain;
     opacity: 0.3;
@@ -385,43 +385,59 @@ body {
 
 /* Product */
 .product {
-    width: 20%;
-    padding: 15px;
+    color: black;
+    width: 21%;
+    height: fit-content !important;
     flex-direction: column;
     align-items: center;
-    color: black;
+    padding: 15px;
 }
 
-.product-image {
+.product__image__container {
     width: 100%;
-    height: 75%;
-    object-fit: cover;
+    height: 0px;
+    padding-bottom: 145% !important;
+    margin-bottom: 10px;
+}
+
+.product__image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 100%;
+    height: 0px; /*DO NOT TOUCH*/
+    padding-bottom: 145% !important;
     border: 2px solid #f38029;
     border-radius: 10px;
     cursor: pointer;
 }
 
-.product-title {
+.product__title {
+    display: block;
     font-weight: 700;
-    display: block;
+    overflow: hidden;
+    white-space: nowrap;
     text-align: left;
+    text-overflow: ellipsis;
 }
 
-.product-title:hover {
-    cursor: pointer;
+.product__title:hover {
     color: #f38029;
+    /* overflow: visible;
+    white-space: normal; */
+    cursor: pointer;
 }
 
-.product-size {
+.product__size {
     display: block;
-    font-weight: 500;
     font-size: 14px;
+    font-weight: 500;
 }
 
-.product-price {
-    font-weight: 500;
+.product__price {
     color: #f38029;
     font-size: 18px;
+    font-weight: 500;
 }
 
 /*Footer: Company, info+,...*/
