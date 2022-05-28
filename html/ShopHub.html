@@ -12,7 +12,7 @@
 <body>
     <div class="header__container">
         <a href="#"><img class="header__site-logo" src="../img/resource/site_logo.png"></a>
-        <div style="width: calc(100% - 600px)">
+        <div class="header__centre">
             <div class="search">
                 <form action="" autocomplete="off" style="display: flex">
                     <input class="search__box" type="text" id="js-search-input" name="Search Box"
@@ -51,7 +51,8 @@
                         <a href="">Manage Account</a>
                     </div>
                 </div>
-                My account
+                <p style="margin: 0px;">My account</p>
+                
             </div>
             <div class="header__config__item">
                 <a href="./LogMeIn.html" style="text-decoration: none;">
@@ -59,7 +60,42 @@
                 </a>
                 <a href="./LogMeIn.html" style="text-decoration: none;">Login/Signup</a>
             </div>
+        </div>
+    </div>
 
+    <div class="header__container__responsive">
+        <div class="header__config">
+            <div class="header__config__item">
+                <div class="my-account">
+                    <button class="my-account__dropdown">
+                        <img src="../img/resource/icon_myaccount.png">
+                    </button>
+                    <div class="my-account__content">
+                        <a href="">Inventory</a>
+                        <a href="">Order History</a>
+                        <a href="">Manage Account</a>
+                    </div>
+                </div>
+                <p style="margin: 0px;">My account</p>
+                
+            </div>
+            <div class="header__config__item">
+                <a href="./LogMeIn.html" style="text-decoration: none;">
+                    <img src="../img/resource/icon_myaccount.png">
+                </a>
+                <a href="./LogMeIn.html" style="text-decoration: none;">Login/Signup</a>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart__info">
+                <div>
+                    <a class="cart__info__desc" href="">Your cart:</a>
+                </div>
+                <div class="js-cart__total-cost"></div>
+            </div>
+            <a href="">
+                <img src="../img/resource/icon_cart.png">
+            </a>
         </div>
     </div>
 
@@ -84,10 +120,9 @@
 
     <div class="body__container">
         <div class="background__container">
-            <img class="background" src="../img/resource/Left_vertical_banner.png">
-            <div class="main-body">
-            </div>
-            <img class="background" src="../img/resource/Right_vertical_banner.png">
+            <div class="background-left"></div>
+            <div class="main-body"></div>
+            <div class="background-right"></div>
         </div>
     </div>
 

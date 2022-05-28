@@ -116,3 +116,9 @@
 ### 7.0
 + Thêm file Cart (html + css + js)
 * Fix background ShopHub (css)
+
+
+
+
+#### 7.2
+* Code ShopHub (html + css) ~ Responsive
