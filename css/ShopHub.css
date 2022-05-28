@@ -90,7 +90,7 @@ body {
 }
 
 .js-cart__total-cost {
-    color:#f38029;
+    color: #f38029;
     font-weight: 700;
 }
 
@@ -134,7 +134,7 @@ body {
     position: absolute;
     min-width: 160px;
     z-index: 1;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     font-size: 13px;
     font-weight: 400;
 }
@@ -146,9 +146,17 @@ body {
     display: block;
 }
 
-.my-account__content a:hover {background-color: #ddd;}
-.my-account:hover .my-account__content {display: block;}
-.my-account:hover .my-account__dropdown {background-color: #f38029;}
+.my-account__content a:hover {
+    background-color: #ddd;
+}
+
+.my-account:hover .my-account__content {
+    display: block;
+}
+
+.my-account:hover .my-account__dropdown {
+    background-color: #f38029;
+}
 
 /*Promotion area*/
 .promotional__container {
@@ -248,6 +256,8 @@ body {
 }
 
 .background {
+    position: sticky;
+    top: 5px;
     background-size: cover;
     background-repeat: repeat;
     width: 200px;
@@ -283,7 +293,7 @@ body {
     cursor: pointer;
 }
 
-.product-title{
+.product-title {
     font-weight: 700;
     display: block;
     text-align: left;
@@ -294,12 +304,13 @@ body {
     color: #f38029;
 }
 
-.product-size{
+.product-size {
     display: block;
     font-weight: 500;
     font-size: 14px;
 }
-.product-price{
+
+.product-price {
     font-weight: 500;
     color: #f38029;
     font-size: 18px;
@@ -310,7 +321,7 @@ body {
     background-color: #f38029;
     box-sizing: border-box;
     margin: 0px;
-	padding: 70px 0px 1px 0px;
+    padding: 70px 0px 1px 0px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -352,7 +363,9 @@ body {
     left: 0px;
     bottom: -10px;
     content: '';
-} /*Gạch xám dưới h5*/
+}
+
+/*Gạch xám dưới h5*/
 
 .footer__column ul li:not(:last-child) {
     margin-bottom: 10px;
@@ -369,7 +382,7 @@ body {
 
 .footer__column ul li a:hover {
     color: white;
-    padding-left: 10px;   
+    padding-left: 10px;
 }
 
 .footer__column .footer__social a {
