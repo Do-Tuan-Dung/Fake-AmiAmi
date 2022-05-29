@@ -133,5 +133,4 @@
 
 ### 8.1
 * Code LogMeIn (html + js)
-* Code Cart (js)
-* Update Cart (css)
+* Code Cart (html + css + js)
