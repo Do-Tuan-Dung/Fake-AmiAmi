@@ -130,3 +130,8 @@
 + Thêm file ĐỒNG_NÁT.md
 + Thêm 4 ảnh (product)
 * Code ShopHub (css + js) ~ Catalog
+
+### 8.1
+* Code LogMeIn (html + js)
+* Code Cart (js)
+* Update Cart (css)

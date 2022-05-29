@@ -56,10 +56,6 @@ body {
 }
 
 /* Product header */
-/* .product.removed {
-	margin-left: 980px !important;
-	opacity: 0;
-} */
 
 .product {
 	border: 1px solid #eee;
@@ -249,14 +245,6 @@ header h3 {
 	color: #f38029;
 	background: #fff;
 }
-
-/* .minused {
-	margin: 0 50px 0 0 !important;
-}
-
-.added {
-	margin: 0 -50px 0 0 !important;
-} */
 
 /* Footer */
 .footer {
