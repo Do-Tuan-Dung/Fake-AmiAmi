@@ -531,8 +531,8 @@ body {
 .footer__lower {
     background-color: #e29b65;
     max-width: 100%;
-    margin: 30px auto;
-    padding: 30px;
+    margin: 30px auto 0px;
+    padding: 30px 30px 20px 30px;
 }
 
 .footer__lower img:first-child {

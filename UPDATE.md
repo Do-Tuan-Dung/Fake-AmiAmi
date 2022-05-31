@@ -137,3 +137,7 @@
 
 #### 8.2
 * Code LogMeIn (html + css + ~~js~~)
+
+#### 8.2.1 
+* Code LogMeIn (html + css) ~ Responsive - On-going
+* Code ShopHub (html + css) ~ Footer
