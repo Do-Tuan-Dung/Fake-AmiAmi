@@ -141,3 +141,9 @@
 #### 8.2.1 
 * Code LogMeIn (html + css) ~ Responsive - On-going
 * Code ShopHub (html + css) ~ Footer
+
+#### 8.3
++ Thêm 1 ảnh (resource)
+* Thay 1 ảnh (resource)
+* Sửa ShopHub.css
+* Code LogMeIn (html + css + js) ~ Responsive

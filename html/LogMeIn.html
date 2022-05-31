@@ -88,17 +88,127 @@
             </div>
         </div>
     </div>
-    <footer>
-        <ul>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">FAQ</a></li>
-        </ul>
-        <p>© Fake-AmiAmi Corp. All rights not reserved 2022</p>
-        <div style="min-height: 20px; visibility: hidden"></div>
-    </footer>
 </div>
 
+<div class="mobile-mode">
+    <div class="intro">
+        <div class="intro__logo"></div>
+        <div class="intro__text">Land of Fumo</div>
+    </div>
+
+    <div class="container" id="js-container">
+        <div class="form-container sign-up-container" id="js-sign-up-container">
+            <form action="#">
+                <p class="jump-form">
+                    <h1>Welcome!</h1>
+                    <a class="jump-form__desc" href="./" id="js-signIn__mobile">Already have an account? Log in to buy a lot fumo now!</a>
+                </p>
+                <h1>Create Account</h1>
+                <div class="social-container">
+                    <a href="https://www.icloud.com/" class="social" target="_blank">
+                        <img src="../img/resource/apple_logo.svg">
+                    </a>
+                    <a href="https://www.facebook.com/" class="social" target="_blank">
+                        <img src="../img/resource/facebook_logo.svg">
+                    </a>
+                    <a href="https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fmyaccount.google.com%3Futm_source%3Daccount-marketing-page%26utm_medium%3Dcreate-account-button&flowName=GlifWebSignIn&flowEntry=SignUp"
+                        class="social" target="_blank">
+                        <img src="../img/resource/google_logo.svg">
+                    </a>
+                </div>
+                <span>or register using your email</span>
+                <form action="" id="js-signup-form">
+                    <input class="js-form__input" type="text" placeholder="Name" required />
+                    <div class="js-input__error__warning"></div>
+                    <input class="js-form__input" type="email" placeholder="Email" required />
+                    <div class="js-input__error__warning"></div>
+                    <input class="js-form__input" type="password" placeholder="Password" />
+                    <div class="js-input__error__warning"></div>
+                    <button type="submit">Sign Up</button>
+                </form>
+            </form>
+        </div>
+
+        <div class="form-container sign-in-container" id="js-sign-in-container">
+            <form action="#">
+                <p class="jump-form">
+                    <h1>Welcome!</h1>
+                    <a class="jump-form__desc" href="./" id="js-signUp__mobile">No account? Click here to create one now!</a>
+                </p>
+                <h1>Sign in</h1>
+                <div class="social-container">
+                    <a href="https://www.icloud.com/" class="social" target="_blank">
+                        <img src="../img/resource/apple_logo.svg">
+                    </a>
+                    <a href="https://www.facebook.com/" class="social" target="_blank">
+                        <img src="../img/resource/facebook_logo.svg">
+                    </a>
+                    <a href="https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fmyaccount.google.com%3Futm_source%3Daccount-marketing-page%26utm_medium%3Dcreate-account-button&flowName=GlifWebSignIn&flowEntry=SignUp"
+                        class="social" target="_blank">
+                        <img src="../img/resource/google_logo.svg">
+                    </a>
+                </div>
+                <span>or log in using your account</span>
+                <form action="../html/ShopHub.html" id="js-login-form">
+                    <input class="js-form__input js-input__error" id="li-email" type="email" placeholder="Email" required autofocus/>
+                    <div class="js-input__error__warning"></div>
+                    <input class="js-form__input" id="li-password" type="password" placeholder="Password" required />
+                    <div class="js-input__error__warning"></div>
+                    <div class="js-form-warning"></div>
+                    <a href="#">Forgot your password?</a>
+                    <button type="submit" id="login-button">Log In</button>
+                </form>
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <!-- Company, follow us & Info+ -->
+    <div class="footer__upper">
+        <div class="footer__row">
+            <div class="footer__column">
+                <h5>COMPANY</h5>
+                <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Our Services</a></li>
+                    <li><a href="">Our Partners</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                    <li><a href="">Privacy Policies</a></li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <h5>FOLLOW US</h5>
+                <div class="footer__social">
+                    <a href=""><img src="../img/resource/facebook_logo.svg"></a>
+                    <a href=""><img src="../img/resource/instagram_logo.svg"></a>
+                    <a href=""><img src="../img/resource/twitter_logo.svg"></a>
+                    <a href=""><img src="../img/resource/google_logo.svg"></a>
+                    <a href=""><img src="../img/resource/weibo_logo.svg"></a>
+                    <a href=""><img src="../img/resource/東方wiki_logo.svg"></a>
+                </div>
+            </div>
+            <div class="footer__column">
+                <h5>USEFUL INFORMATION</h5>
+                <ul>
+                    <li><a href="">Shipping</a></li>
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="">Methods of Payment</a></li>
+                    <li><a href="">Refund Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Logo & Copyright -->
+    <div class="footer__lower">
+        <a href="#"><img src="../img/resource/site_logo.png"></a>
+        <div>
+            <p>Moriya Shrine, Mount Yatsugatake, Gensokyo, Nagano, Japan.</p>
+            <p>*</p>
+            <p>Copyright © 2022. All rights reseerved.</p>
+        </div>
+    </div>
+</footer>
     <script src="../js/LogMeIn.js"></script>
 </body>
 

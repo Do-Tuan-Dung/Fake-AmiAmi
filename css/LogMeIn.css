@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+/*Font:
+- Poppins (for footer);
+- Montserrat (default LogMeIn font)*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap');
 
 * {
     margin: 0;
@@ -87,36 +90,12 @@ input {
     border-radius: 10px;
 }
 
-footer {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #000000BF;
-    width: 100%;
-    height: 140px;
-    position: absolute;
-    bottom: 0px;
-    color: #FFFFFF;
-    text-align: center;
-    line-height: 20px;
-}
-
-footer a {
-    color: #FFFFFF;
-}
-
-footer ul {
-    list-style-type: none;
-    cursor: pointer;
-}
-
 .default-mode {
     display: flex;
     background: url(../img/resource/fumo_login_bg.jpg);
     background-size: cover;
     background-position: center;
-    min-height: calc(100vh + 140px);
+    min-height: calc(100vh);
     position: relative;
     justify-content: center;
     align-items: center;
@@ -127,7 +106,7 @@ footer ul {
 
 /*Intro section*/
 .intro {
-    margin: -100px auto 60px auto;
+    margin: 0px auto 60px auto;
 }
 
 .intro__logo {
@@ -141,7 +120,7 @@ footer ul {
     background-color: white;
     color: #FF4B2B;
     width: fit-content;
-    margin: -1px auto;
+    margin: -5px auto;
     padding: 5px 10px;
     border-radius: 0px 0px 10px 10px;
     font-size: 20px;
@@ -156,7 +135,7 @@ footer ul {
     position: relative;
     overflow: hidden;
     width: 768px;
-    max-width: 100%;
+    max-width: 90%;
     min-height: 480px;
 }
 
@@ -229,10 +208,8 @@ footer ul {
 }
 
 .overlay {
-    background: url(../img/resource/fumo_login_overlay.png);
-    background-repeat: no-repeat;
+    background: url(../img/resource/fumo_login_overlay.png) no-repeat;
     background-size: cover;
-    background-position: 0% 10%;
     color: white;
     position: relative;
     left: -100%;
@@ -305,6 +282,267 @@ footer ul {
     color: #FF4B2B;
     background-color: #FFFFFF;
     transition: 0.7s;
+}
+
+.container,
+.form-container,
+.form-hidden,
+.sign-in-container,
+.sign-up-container,
+.form-container div,
+.form-container form,
+.form-container p,
+.overlay,
+.overlay-panel,
+.overlay-container,
+.overlay-left,
+.overlay-right {
+    transition: all 0.6s ease-in;
+}
+
+/*Responsive (.mobile-mode)*/
+.mobile-mode {
+    background: url(../img/resource/fumo_login_mobile.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    min-height: calc(100vh);
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-hidden {
+    display: none;
+}
+
+.jump-form__desc {
+    color: #FF4B2B;
+    margin: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.1s ease-in;
+}
+
+.jump-form__desc:hover {
+    border: 2px solid #FF4B2B;
+    border-radius: 16px;
+    margin: 10px;
+    padding: 8px;
+}
+
+@media(min-width: 850px) {
+    .default-mode {
+        display: flex;
+    }
+
+    .mobile-mode {
+        display: none;
+    }
+}
+
+@media(max-width: 849.98px) {
+    .default-mode {
+        display: none;
+    }
+
+    .mobile-mode {
+        display: flex;
+        min-height: calc(100vh + 60px);
+        justify-items: center;
+        padding: 30px 0px;
+    }
+
+    .container {
+        opacity: 0.8;  
+        box-shadow: none;
+        min-height: 600px;
+    }
+
+    .intro__logo {
+        background-size: contain;
+        width: 337.5px;
+        height: 68px;
+    }
+
+    .form-container {
+        width: 100%;
+    }
+
+    .sign-in-container,
+    .sign-up-container {
+        opacity: 1;
+        z-index: 1;
+    }
+
+    .mobile-mode .form-container form {
+        justify-content: center;
+    }
+}
+
+/*Footer: Company, info+,...*/
+.footer {
+    background-color: #f38029;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 40px 0px 1px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer__upper {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.footer__upper ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.footer__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer__column {
+    width: 30.75%;
+    padding: 0px 15px;
+}
+
+.footer__column h5 {
+    color: white;
+    position: relative;
+    margin-bottom: 35px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer__column h5::before {
+    background-color: rgb(69, 69, 69);
+    box-sizing: border-box;
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+    content: '';
+}
+
+/*Gạch xám dưới h5*/
+
+.footer__column ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer__column ul li a {
+    display: block;
+    color: #d3d3d3;
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer__column ul li a:hover {
+    color: white;
+    padding-left: 10px;
+}
+
+.footer__column .footer__social a {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #bbbbbb;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 0px 10px 10px 0px;
+    line-height: 38px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.footer__column .footer__social a:hover {
+    color: #bbbbbb;
+    background-color: white;
+}
+
+/*Lower: Logo & Copyright*/
+.footer__lower {
+    background-color: #e29b65;
+    max-width: 100%;
+    margin: 30px auto 0px;
+    padding: 30px 30px 20px 30px;
+}
+
+.footer__lower img:first-child {
+    position: relative;
+    left: 50%;
+    margin-bottom: 20px;
+    transform: translate(-50%);
+}
+
+.footer .footer__lower p {
+    color: #d3d3d3;
+    margin: 2px;
+    text-align: center;
+}
+
+/*Footer ~ Responsive*/
+@media(max-width: 1199.98px) {
+    .footer__column {
+        width: 25%;
+        margin-bottom: 30px;
+    }
+
+    .footer__column:first-child {
+        margin-left: 60px;
+    }
+
+    .footer__column .footer__social a {
+        margin: 0px 70px 20px 0px
+    }
+}
+
+@media (max-width: 991.98px) {
+    .footer__column {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .footer__column:first-child {
+        margin-left: 0px;
+    }
+
+    .footer__column h5::before {
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .footer__column .footer__social a {
+        margin: 0px 10px 10px 0px
+    }
+
+    .footer__column .footer__social a:last-child {
+        margin: 0px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .footer__lower img {
+        width: 75%;
+    }
+
+    .footer__lower p {
+        font-size: 11px;
+    }
+
+    .footer__column ul li a {
+        margin: 8px 0px;
+    }
 }
 
 /*Conditional's styling*/
