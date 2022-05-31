@@ -131,6 +131,9 @@
 + Thêm 4 ảnh (product)
 * Code ShopHub (css + js) ~ Catalog
 
-### 8.1
+#### 8.1
 * Code LogMeIn (html + js)
 * Code Cart (html + css + js)
+
+#### 8.2
+* Code LogMeIn (html + css + ~~js~~)

@@ -92,10 +92,11 @@ form {
 
 input {
     background-color: #eee;
-    border: none;
-    padding: 12px 15px;
     margin: 8px 0;
+    padding: 12px 15px;
     width: 100%;
+    border: none;
+    border-radius: 10px;
 }
 
 footer {
@@ -126,7 +127,7 @@ footer ul {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
-        0 10px 10px rgba(0, 0, 0, 0.22);
+                0 10px 10px rgba(0, 0, 0, 0.22);
     position: relative;
     overflow: hidden;
     width: 768px;
@@ -156,6 +157,13 @@ footer ul {
     width: 50%;
     opacity: 0;
     z-index: 1;
+}
+
+.sign-in-container form:last-child input:focus,
+.sign-up-container form:last-child input:focus {
+    outline: none;
+    border: 1.5px solid #FF4B2B;
+    border-radius: 10px;
 }
 
 .container.js-right-panel__active .sign-up-container {
@@ -272,4 +280,26 @@ footer ul {
     color: #FF4B2B;
     background-color: #FFFFFF;
     transition: 0.7s;
+}
+
+/*Conditional's styling*/
+.js-form-warning__error {
+    color: #cc3333;
+    font-size: 13px;
+}
+
+.js-form-warning__success {
+    color: #4bb544;
+    font-size: 13px;
+}
+
+.js-input__error {
+    color: #cc3333;
+    border-color: #cc3333;
+}
+
+.js-input__error__warning {
+    color: #cc3333;
+    margin-bottom: 0.25rem;
+    font-size: 13px;
 }

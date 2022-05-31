@@ -1,5 +1,4 @@
-//Effect
-
+//Slider Effect
 const signUpButton = document.getElementById('js-signUp');
 const signInButton = document.getElementById('js-signIn');
 const container = document.getElementById('js-container');
@@ -12,11 +11,12 @@ signInButton.addEventListener('click', () => {
     container.classList.remove("js-right-panel__active");
 });
 
-//Log in func
-const logInForm = document.getElementById('login-form');
-const logInBtn = document.getElementById('login-button')
-const logInEmail = document.getElementById('li-email')
-const logInPass = document.getElementById('li-password')
+//Logging in
+const logInForm = document.getElementById('js-login-form');
+const logInBtn = document.getElementById('login-button');
+const logInEmail = document.getElementById('li-email');
+const logInPass = document.getElementById('li-password');
+const logInWarn = document.getElementsByClassName('js-form-warning');
 
 logInBtn.addEventListener('click', () => {
     let email = logInEmail.value;

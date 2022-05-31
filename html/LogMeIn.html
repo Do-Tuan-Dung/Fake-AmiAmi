@@ -27,11 +27,14 @@
                     </a>
                 </div>
                 <span>or register using your email</span>
-                <form action="" id="signup-form">
-                    <input type="text" placeholder="Name" required />
-                    <input type="email" placeholder="Email" required />
-                    <input type="password" placeholder="Password" />
-                    <button>Sign Up</button>
+                <form action="" id="js-signup-form">
+                    <input class="js-form__input" type="text" placeholder="Name" required />
+                    <div class="js-input__error__warning"></div>
+                    <input class="js-form__input" type="email" placeholder="Email" required />
+                    <div class="js-input__error__warning"></div>
+                    <input class="js-form__input" type="password" placeholder="Password" />
+                    <div class="js-input__error__warning"></div>
+                    <button type="submit">Sign Up</button>
                 </form>
             </form>
         </div>
@@ -51,11 +54,14 @@
                     </a>
                 </div>
                 <span>or log in using your account</span>
-                <form action="../html/ShopHub.html" id="login-form">
-                    <input id="li-email" type="email" placeholder="Email" required />
-                    <input id="li-password" type="password" placeholder="Password" required />
+                <form action="../html/ShopHub.html" id="js-login-form">
+                    <input class="js-form__input js-input__error" id="li-email" type="email" placeholder="Email" required autofocus/>
+                    <div class="js-input__error__warning"></div>
+                    <input class="js-form__input" id="li-password" type="password" placeholder="Password" required />
+                    <div class="js-input__error__warning"></div>
+                    <div class="js-form-warning"></div>
                     <a href="#">Forgot your password?</a>
-                    <button id="login-button">Log In</button>
+                    <button type="submit" id="login-button">Log In</button>
                 </form>
             </form>
         </div>
