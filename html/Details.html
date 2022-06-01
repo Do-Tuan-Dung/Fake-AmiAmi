@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ShopHub ~ Fake-AmiAmi</title>
-    <link rel="stylesheet" href="../css/ShopHub.css">
+    <title>Details ~ Fake-AmiAmi</title>
+    <link rel="stylesheet" href="../css/Details.css">
 </head>
-
 <body>
     <div class="header__container">
         <a href="#"><img class="header__site-logo" src="../img/resource/site_logo.png"></a>
@@ -109,23 +107,47 @@
     </div>
 
     <hr style="border-top: 5px double rgb(150, 150, 150); margin: 20px">
-    <div class="promotional__container">
-        <div class="promotional__banner"></div>
-        <div class="promotional__youtube">
-            <div class="promotional__youtube__cell">
-                <iframe width="426" height="240" src="https://www.youtube.com/embed/qbQHJCquNtU"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+
+    <!-- Details section starts here -->
+
+    <div class="detail__container">
+        <div class="detail__image">
+            <img src="../img/product/GOODS-Remilia.jpg">
+            <p>※Actual product may differ from photo.</p>
+        </div>
+        <div class="detail__desc">
+            <h1>[Pre-Order] Fumofumo Remilia Scarlet ~ Touhou (東方) Project</h1>
+            <h2>Size: Approximate height 20cm (7.8 inches) in sitting pose</h2>
+            <h3>6500¥</h3>
+            <div class="detail__conversion__container">
+                <p>Roughly</p>
+                <div class="js-conversion">49.97</div>
+                <select class="js-conversion__button" name="currency" id="js-currency">
+                    <option value="aud">AUD</option>   <!-- Australian Dollar 0.011 -->
+                    <option value="cad">CAD</option>   <!-- Canadian Dollar 0.0097 -->
+                    <option value="cny">CNY</option>   <!-- Chinese Yuan 0.051 -->
+                    <option value="eur">EUR</option>   <!-- Euro 0.0072 -->
+                    <option value="gbp">GBP</option>   <!-- British Pound Sterling 0.0062 -->
+                    <option value="won">KRW</option>   <!-- Korean Won 9.57 -->
+                    <option value="usd">USD</option>   <!-- US Dollar 0.0077 -->
+                </select>
             </div>
-            <div class="promotional__youtube__cell">
-                <iframe width="426" height="240" src="https://www.youtube.com/embed/YT-TsKrM0Jk"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+            <h4>Fumo tags:</h4>
+            <div class="detail__tags">
+                <div class="tag">Embodiment of Scarlet Devil</div>
+                <div class="tag">Deka</div>
+                <div class="tag">Variant</div>
+                <div class="tag">Scarlet Weather Rhapsody</div>
+            </div>
+            <div class="button_group">
+                <button class="js-order">Order now!</button>
+                <button class="js-favourite">Add to favourite</button>
+                <button class="js-share">Share</button>
             </div>
         </div>
     </div>
+
+    <!-- Details section stops here -->
 
     <div class="body__container">
         <div class="background__container">
@@ -181,10 +203,5 @@
             </div>
         </div>
     </footer>
-    <script src="../js/ShopHub.js"></script>
-
-    <body>
-
-    </body>
-
+</body>
 </html>

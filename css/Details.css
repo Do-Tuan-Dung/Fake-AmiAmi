@@ -1,0 +1,214 @@
+@import url(../css/ShopHub.css);
+
+.detail__container {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 50px);
+    padding: 50px 25px 40px;
+}
+
+.detail__image {
+    width: 40%;
+    min-width: 350px;
+}
+
+.detail__image img {
+    width: 100%;
+}
+
+.detail__image p {
+    color: grey;
+    width: fit-content;
+    margin: auto;
+}
+
+.detail__desc h1 {
+    color: grey;
+    font-weight: 300;
+}
+
+.detail__desc h2 {
+    color: #f38029;
+    font: italic 1.2em 'Open Sans', sans-serif;
+}
+
+.detail__desc h3 {
+    color: #6CBB5A;
+    font-size: 2.5em;
+    font-weight: 650;
+    margin-bottom: 0px;
+}
+
+.detail__desc h4 {
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+.detail__conversion__container {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 50px;
+}
+
+.detail__conversion__container p,
+.js-conversion,
+.js-conversion__button {
+    font-size: 14px;
+    color: grey;
+    margin: 0px 5px 0px 0px;
+}
+
+.detail__tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detail__tags .tag {
+    color: #f38029;
+    width: fit-content;
+    border: 2px dotted #ebb388;
+    border-radius: 10px;
+    margin: 2px 2px;
+    padding: 1px 10px;
+    font: 500 11px 'Poppins', sans-serif;
+}
+
+.button_group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.button_group button {
+    background: #f5f5f5;
+    color: grey;
+    border: 1px solid #c6c6c6;
+    margin: 10px 0px;
+    padding: 12px 0px;
+    font-size: 1.125rem;
+    cursor: pointer;
+}
+
+.button_group button:hover,
+.button_group button:active {
+    border: 0px solid transparent;
+    border-radius: 12px;
+    padding: 13px 0px;
+}
+
+.button_group button:active {
+    background-color: #f38029;
+}
+
+.js-order {
+    width: 150px;
+}
+
+.js-favourite {
+    position: relative;
+    width: 250px;
+}
+
+.js-favourite::before {
+    background: url(../img/resource/icon_favourite.png);
+    position: absolute;
+    left: 16%;
+    top: 32%;
+    content: "";
+    width: 16px;
+    height: 15px;
+}
+
+.js-share {
+    position: relative;
+    width: 175px;
+}
+
+.js-share::before {
+    background: url(../img/resource/icon_share.png);
+    position: absolute;
+    left: 26%;
+    top: 38%;
+    content: "";
+    width: 13px;
+    height: 9px;
+}
+
+/*Responsive*/
+@media(max-width: 767.98px) {
+    .detail__container {
+        display: block;
+    }
+
+    .detail__image {
+        width: 80%;
+        min-width: 0px;
+        margin: auto;
+    }
+
+    .button_group {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .button_group button {
+        margin-right: 20px;
+    }
+}
+
+@media(max-width: 449.98px) {
+    .detail__container {
+        width: calc(100% - 40px);
+        padding: 40px 20px;
+    }
+    
+    .detail__desc h1 {
+        font-size: 1.3em;
+    }
+
+    .detail__desc h2 {
+        font-size: 1em;
+    }
+
+    .detail__desc h3 {
+        width: fit-content;
+        margin: 0px auto;
+    }
+
+    .detail__conversion__container {
+        width: fit-content;
+        margin: auto;
+    }
+
+    .button_group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button_group button {
+        margin-right: 0px;
+        font-size: 1rem;
+    }
+
+    .js-order {
+        width: 130px;
+    }
+
+    .js-favourite {
+        width: 230px;
+    }
+
+    .js-favourite::before {
+        left: 17%;
+        top: 28%;
+    }
+
+    .js-share {
+        width: 150px;
+    }
+
+    .js-share::before {
+        left: 24%;
+        top: 35%;
+    }
+}

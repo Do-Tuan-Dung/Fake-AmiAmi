@@ -59,7 +59,7 @@
 + Thêm 1 ảnh (resource)
 
 ### 6.0
-+ Tạo và code ShopHub.js
++ Tạo ShopHub.js
 - Remove 1 ảnh (product)
 
 #### 6.1
@@ -114,7 +114,7 @@
 * Code ShopHub (html + css) ~ Promotional
 
 ### 7.0
-+ Thêm file Cart (html + css + js)
++ Tạo Cart (html + css + js)
 * Fix background ShopHub (css)
 
 #### 7.1
@@ -127,7 +127,7 @@
 * Code ShopHub (css) ~ Responsive
 
 ### 8.0
-+ Thêm file ĐỒNG_NÁT.md
++ Tạo file ĐỒNG_NÁT.md
 + Thêm 4 ảnh (product)
 * Code ShopHub (css + js) ~ Catalog
 
@@ -147,3 +147,10 @@
 * Thay 1 ảnh (resource)
 * Sửa ShopHub.css
 * Code LogMeIn (html + css + js) ~ Responsive
+
+### 9.0
++ Tạo Details (html + css)
++ Thêm 2 ảnh (resource)
++ Thêm 4 ảnh (product)
+* Sửa 2 ảnh (product)
+* Sửa ShopHub (html + css + js)

@@ -175,7 +175,7 @@ body {
     margin: 0px 35px 0px 15px;
 }
 
-@media (max-width: 789.98px) {
+@media (max-width: 809.98px) {
     .header__site-logo {
         margin-top: 15px;
         margin-right: 10px;
@@ -590,11 +590,19 @@ body {
 }
 
 @media (max-width: 575.98px) {
+    .footer {
+        padding: 30px 0px 1px 0px;
+    }
+
     .footer__lower img {
         width: 75%;
     }
 
     .footer__lower p {
         font-size: 11px;
+    }
+
+    .footer__column ul li a {
+        margin: 8px 0px;
     }
 }
