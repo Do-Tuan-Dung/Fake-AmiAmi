@@ -42,6 +42,8 @@ logInBtn.addEventListener('click', () => {
 
     if(email == "" || pass == "") {
         alert("Please enter your Email and Password")
+    } else if (email == "abc@gmail.com" && pass == "123") {
+        window.location.replace(ShopHub.html)
     } else {
         alert("Wrong Email or Password")
     }
