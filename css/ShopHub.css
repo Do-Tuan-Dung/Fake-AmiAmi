@@ -11,6 +11,10 @@ body {
     margin: 0px;
 }
 
+.d-none {
+    display: none;
+}
+
 /*Header: Logo, search box, cart, config*/
 .header__container {
     display: flex;
@@ -438,6 +442,11 @@ body {
     color: #f38029;
     font-size: 18px;
     font-weight: 500;
+}
+
+.product-body a {
+    text-decoration: none;
+    color: black
 }
 
 /*Footer: Company, info+,...*/

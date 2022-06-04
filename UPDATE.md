@@ -154,3 +154,6 @@
 + Thêm 4 ảnh (product)
 * Sửa 2 ảnh (product)
 * Sửa ShopHub (html + css + js)
+
+### 9.1
+* Update ShopHub (js + html), Cart (js + html)

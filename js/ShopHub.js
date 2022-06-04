@@ -325,11 +325,14 @@ productList.forEach(function (prod) {
         <div class="product__image" style="background-image: url(${prod.img});">
         </div>
     </div>
+    <div class="product-body">
     <span class="product__title">${prod.title}</span>
-    <span class="product__size">Size: ${prod.description}</span>
+    <span class="product__size">${prod.description}</span>
     <span class="product__price">Price: ${prod.price}</span>
+    </div>
   </div>
   `
 });
 
 content.innerHTML = contentHtml;
+

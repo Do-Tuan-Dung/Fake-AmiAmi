@@ -11,13 +11,13 @@
 
 <body>
     <div class="header__container">
-        <a href="#"><img class="header__site-logo" src="../img/resource/site_logo.png"></a>
+        <a href="../html/ShopHub.html"><img class="header__site-logo" src="../img/resource/site_logo.png"></a>
         <div class="header__centre">
             <div class="search">
                 <form action="" autocomplete="off" style="display: flex">
                     <input class="search__box" type="text" id="js-search-input" name="Search Box"
-                        placeholder="Search...">
-                    <select class="search__filter">
+                        placeholder="Search..." onkeyup="searchFilter()">
+                    <select class="search__filter" id="filter" onchange="searchFilter()">
                         <option value="all">All</option>
                         <option value="deka">Dekafumo</option>
                         <option value="var">Variant</option>
@@ -39,7 +39,7 @@
                 </form>
             </div>
             <div class="cart">
-                <a href="">
+                <a href="../html/Cart.html">
                     <img src="../img/resource/icon_cart.png">
                 </a>
                 <p class="cart__info">
