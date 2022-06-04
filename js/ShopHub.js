@@ -326,7 +326,7 @@ productList.forEach(function (prod) {
         </div>
     </div>
     <div class="product-body">
-    <span class="product__title">${prod.title}</span>
+    <a href="../html/Details.html?id=1"><span class="product__title">${prod.title}</span></a>
     <span class="product__size">${prod.description}</span>
     <span class="product__price">Price: ${prod.price}</span>
     </div>
@@ -336,3 +336,5 @@ productList.forEach(function (prod) {
 
 content.innerHTML = contentHtml;
 
+let params = new URL(document.location).searchParams;
+let id = params.get('id');
