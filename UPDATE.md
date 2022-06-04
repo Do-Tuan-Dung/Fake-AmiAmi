@@ -138,7 +138,7 @@
 #### 8.2
 * Code LogMeIn (html + css + ~~js~~)
 
-#### 8.2.1 
+##### 8.2.1 
 * Code LogMeIn (html + css) ~ Responsive - On-going
 * Code ShopHub (html + css) ~ Footer
 
@@ -155,5 +155,8 @@
 * Sửa 2 ảnh (product)
 * Sửa ShopHub (html + css + js)
 
-### 9.1
+#### 9.1
 * Update ShopHub (js + html), Cart (js + html)
+
+### 10.0
++ Thêm + Code Details.js
