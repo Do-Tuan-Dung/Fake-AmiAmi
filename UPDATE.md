@@ -160,3 +160,7 @@
 
 ### 10.0
 + Thêm + Code Details.js
+
+#### 10.1
++ Sửa Details.html
++ Sửa footer
